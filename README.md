@@ -37,43 +37,28 @@ This landing page is built with:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/balibookbot.git
+   git clone https://github.com/esakrissa/booking-bot.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd balibookbot
+   cd booking-bot
    ```
 
 3. Open `index.html` in your browser to view the site locally.
 
 ### GitHub Pages Deployment
 
-This site is designed to be hosted on GitHub Pages:
+This site is deployed on GitHub Pages:
 
 1. Push your changes to the `main` branch
-2. Go to your repository settings
-3. Navigate to the "Pages" section
-4. Select the `main` branch as the source
-5. Save the settings
-
-Your site will be published at `https://yourusername.github.io/balibookbot/`
-
-### Custom Domain Setup
-
-To connect your custom domain:
-
-1. In your repository settings, go to the "Pages" section
-2. Under "Custom domain", enter your domain name: `booking.travel-agency.live`
-3. Save the settings
-4. Configure your domain's DNS settings:
-   - For an apex domain: Add A records pointing to GitHub Pages IP addresses
-   - For a subdomain: Add a CNAME record pointing to `yourusername.github.io`
+2. GitHub automatically builds and deploys the site
+3. The site is available at: [https://esakrissa.github.io/booking-bot/](https://esakrissa.github.io/booking-bot/)
 
 ## 📁 Project Structure
 
 ```
-balibookbot/
+booking-bot/
 ├── index.html          # Main landing page
 ├── css/
 │   └── styles.css      # Stylesheet
@@ -99,7 +84,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For any questions or inquiries, please contact:
 - Email: hello@balibookbot.com
-- Website: [booking.travel-agency.live](https://booking.travel-agency.live)
+- Website: [https://esakrissa.github.io/booking-bot/](https://esakrissa.github.io/booking-bot/)
 
 ---
 
