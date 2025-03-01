@@ -1,11 +1,11 @@
 /* Base Styles */
 :root {
-    --primary-color: #00ff66; /* Neon green */
+    --primary-color: #9CFF00; /* Mango Green */
     --secondary-color: #ff36f7; /* Neon pink */
     --accent-color: #7b4bff; /* Neon purple */
-    --dark-color: #121212; /* Near black */
+    --dark-color: #010B12; /* Rich Black [FOGRA29] */
     --light-color: #f8f8f8;
-    --success-color: #00ff66; /* Neon green */
+    --success-color: #9CFF00; /* Mango Green */
     --danger-color: #ff3e3e; /* Neon red */
     --max-width: 1200px;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -63,7 +63,7 @@ img {
     width: 80px;
     height: 4px;
     background: var(--primary-color);
-    box-shadow: 0 0 10px var(--primary-color);
+    box-shadow: none;
 }
 
 section {
@@ -85,7 +85,7 @@ section {
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--dark-color);
-    box-shadow: 0 0 15px rgba(0, 255, 102, 0.5);
+    box-shadow: none;
 }
 
 .btn-primary:hover {
@@ -98,7 +98,7 @@ section {
 .btn-secondary {
     background-color: var(--secondary-color);
     color: var(--dark-color);
-    box-shadow: 0 0 15px rgba(255, 54, 247, 0.5);
+    box-shadow: none;
 }
 
 .btn-secondary:hover {
@@ -115,14 +115,14 @@ section {
 
 /* Header & Navigation */
 header {
-    background-color: rgba(18, 18, 18, 0.95);
-    box-shadow: 0 2px 10px rgba(0, 255, 102, 0.2);
+    background-color: rgba(1, 11, 18, 0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
-    border-bottom: 1px solid rgba(0, 255, 102, 0.2);
+    border-bottom: 1px solid rgba(156, 255, 0, 0.2);
 }
 
 nav {
@@ -160,7 +160,7 @@ nav {
 
 .nav-links a:hover {
     color: var(--primary-color);
-    text-shadow: 0 0 8px var(--primary-color);
+    text-shadow: none;
 }
 
 .hamburger {
@@ -208,8 +208,8 @@ nav {
 .hero-image img {
     max-height: 400px;
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(0, 255, 68, 0.5);
-    border: 2px solid rgba(0, 255, 68, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(156, 255, 0, 0.5);
     margin-top: 2rem;
 }
 
@@ -221,7 +221,7 @@ nav {
 
 /* Features Section */
 .features {
-    background-color: #1a1a1a;
+    background-color: #021420; /* Slightly lighter than Rich Black */
 }
 
 .features-grid {
@@ -237,20 +237,20 @@ nav {
     text-align: center;
     box-shadow: var(--box-shadow);
     transition: var(--transition);
-    border: 1px solid rgba(0, 255, 102, 0.1);
+    border: 1px solid rgba(156, 255, 0, 0.1);
 }
 
 .feature-card:hover {
     transform: translateY(-10px);
     border: 1px solid var(--primary-color);
-    box-shadow: 0 0 20px rgba(0, 255, 102, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
-    text-shadow: 0 0 10px var(--primary-color);
+    text-shadow: none;
 }
 
 .feature-card h3 {
@@ -260,7 +260,7 @@ nav {
 
 /* How It Works Section */
 .how-it-works {
-    background-color: #0d0d0d;
+    background-color: #010B12; /* Rich Black */
 }
 
 .steps {
@@ -282,7 +282,7 @@ nav {
 
 .step:hover {
     border: 1px solid var(--accent-color);
-    box-shadow: 0 0 20px rgba(123, 75, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .step-number {
@@ -297,7 +297,7 @@ nav {
     font-weight: bold;
     border-radius: 50%;
     margin: 0 auto 1.5rem;
-    box-shadow: 0 0 15px rgba(123, 75, 255, 0.5);
+    box-shadow: none;
 }
 
 .step h3 {
@@ -307,7 +307,7 @@ nav {
 
 /* Chat Demo Section */
 .chat-demo {
-    background-color: #1a1a1a;
+    background-color: #021420; /* Slightly lighter than Rich Black */
 }
 
 .chat-container {
@@ -315,9 +315,9 @@ nav {
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 25px rgba(0, 255, 102, 0.2);
-    background-color: #0d0d0d;
-    border: 1px solid rgba(0, 255, 102, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #010B12;
+    border: 1px solid rgba(156, 255, 0, 0.3);
 }
 
 .chat-header {
@@ -331,7 +331,7 @@ nav {
     padding: 1rem;
     max-height: 400px;
     overflow-y: auto;
-    background-color: #0d0d0d;
+    background-color: #010B12;
 }
 
 .message {
@@ -348,7 +348,7 @@ nav {
 }
 
 .message.user {
-    background-color: rgba(0, 255, 102, 0.1);
+    background-color: rgba(156, 255, 0, 0.1);
     color: var(--light-color);
     margin-left: auto;
     border-right: 3px solid var(--primary-color);
@@ -367,12 +367,12 @@ nav {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(0, 255, 102, 0.2);
+    border: 1px solid rgba(156, 255, 0, 0.2);
     transition: var(--transition);
 }
 
 .hotel-card:hover {
-    box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
 }
 
@@ -409,7 +409,7 @@ nav {
 .chat-input input {
     flex: 1;
     padding: 0.8rem;
-    border: 1px solid rgba(0, 255, 102, 0.3);
+    border: 1px solid rgba(156, 255, 0, 0.3);
     border-radius: 30px;
     outline: none;
     background-color: rgba(255, 255, 255, 0.05);
@@ -418,7 +418,7 @@ nav {
 
 .chat-input input:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+    box-shadow: none;
 }
 
 .send-btn {
@@ -433,7 +433,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+    box-shadow: none;
 }
 
 .send-btn:hover {
@@ -449,7 +449,7 @@ nav {
 
 /* Destinations Section */
 .destinations {
-    background-color: #0d0d0d;
+    background-color: #010B12; /* Rich Black */
 }
 
 .destinations-grid {
@@ -468,7 +468,7 @@ nav {
 
 .destination-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(255, 54, 247, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-color: var(--secondary-color);
 }
 
@@ -495,7 +495,7 @@ nav {
 
 /* Testimonials Section */
 .testimonials {
-    background-color: #1a1a1a;
+    background-color: #021420; /* Slightly lighter than Rich Black */
 }
 
 .testimonials-slider {
@@ -515,7 +515,7 @@ nav {
 
 .testimonial:hover {
     border-color: var(--accent-color);
-    box-shadow: 0 0 20px rgba(123, 75, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-content {
@@ -536,7 +536,7 @@ nav {
     margin-right: 1rem;
     object-fit: cover;
     border: 2px solid var(--accent-color);
-    box-shadow: 0 0 10px rgba(123, 75, 255, 0.5);
+    box-shadow: none;
 }
 
 .testimonial-author h4 {
@@ -550,7 +550,7 @@ nav {
 
 /* Contact Section */
 .contact {
-    background-color: #0d0d0d;
+    background-color: #010B12; /* Rich Black */
 }
 
 .contact-container {
@@ -578,7 +578,7 @@ nav {
     font-size: 1.5rem;
     color: var(--secondary-color);
     margin-right: 1rem;
-    text-shadow: 0 0 10px var(--secondary-color);
+    text-shadow: none;
 }
 
 .social-links {
@@ -604,7 +604,7 @@ nav {
     background-color: var(--secondary-color);
     color: var(--dark-color);
     transform: translateY(-3px);
-    box-shadow: 0 0 15px rgba(255, 54, 247, 0.5);
+    box-shadow: none;
 }
 
 .contact-form .form-group {
@@ -622,7 +622,7 @@ nav {
 .contact-form textarea {
     width: 100%;
     padding: 0.8rem;
-    border: 1px solid rgba(0, 255, 102, 0.3);
+    border: 1px solid rgba(156, 255, 0, 0.3);
     border-radius: 5px;
     outline: none;
     background-color: rgba(255, 255, 255, 0.05);
@@ -633,7 +633,7 @@ nav {
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+    box-shadow: none;
 }
 
 .contact-form textarea {
@@ -642,10 +642,10 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #080808;
+    background-color: #000A10; /* Darker than Rich Black */
     color: white;
     padding: 4rem 0 2rem;
-    border-top: 1px solid rgba(0, 255, 102, 0.2);
+    border-top: 1px solid rgba(156, 255, 0, 0.2);
 }
 
 .footer-content {
@@ -680,7 +680,7 @@ footer {
 .footer-column h3 {
     margin-bottom: 1.5rem;
     color: var(--primary-color);
-    text-shadow: 0 0 8px var(--primary-color);
+    text-shadow: none;
 }
 
 .footer-column ul li {
@@ -694,7 +694,7 @@ footer {
 
 .footer-column ul li a:hover {
     color: var(--primary-color);
-    text-shadow: 0 0 5px var(--primary-color);
+    text-shadow: none;
 }
 
 .footer-bottom {
@@ -710,12 +710,12 @@ footer {
 
 .footer-bottom a {
     color: var(--secondary-color);
-    text-shadow: 0 0 5px var(--secondary-color);
+    text-shadow: none;
 }
 
 .footer-bottom a:hover {
     color: var(--primary-color);
-    text-shadow: 0 0 5px var(--primary-color);
+    text-shadow: none;
 }
 
 /* Media Queries */
@@ -726,12 +726,12 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: rgba(18, 18, 18, 0.98);
+        background-color: rgba(1, 11, 18, 0.98);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: var(--transition);
-        border-top: 1px solid rgba(0, 255, 102, 0.2);
+        border-top: 1px solid rgba(156, 255, 0, 0.2);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
 
