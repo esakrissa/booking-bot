@@ -726,11 +726,13 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: white;
+        background-color: rgba(18, 18, 18, 0.98);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: var(--transition);
+        border-top: 1px solid rgba(12, 255, 225, 0.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
 
     .nav-links.active {
@@ -741,12 +743,29 @@ footer {
         margin: 1.5rem 0;
     }
 
+    .nav-links a {
+        font-size: 1.2rem;
+        color: var(--light-color);
+    }
+
     .hamburger {
         display: block;
     }
 
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .cta-buttons {
