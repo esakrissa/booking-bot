@@ -86,6 +86,17 @@ For any questions or inquiries, please contact:
 - Email: hello@balibookbot.com
 - Website: [https://esakrissa.github.io/booking-bot/](https://esakrissa.github.io/booking-bot/)
 
+## 🖼️ Image Credits
+
+- Hero image: Photo by [Artem Beliaikin](https://unsplash.com/@belart84) on Unsplash
+- Ubud image: Photo by [Jeremy Bishop](https://unsplash.com/@jeremybishop) on Unsplash
+- Seminyak image: Photo by [Felfin05 Photograph](https://www.pexels.com/@felfin05-photograph-651779/) on Pexels
+- Uluwatu image: Photo by [Alfiano Sutianto](https://unsplash.com/@alfianostn) on Unsplash
+- Nusa Penida image: Photo by [Cassie Gallegos](https://unsplash.com/@cassiegallegos) on Unsplash
+- Testimonial images: Photos from Pexels
+- Hotel image: Photo by [Ishan @seefromthesky](https://unsplash.com/@seefromthesky) on Unsplash
+- Logo: Icon by [Icons8](https://icons8.com/icon/11215/chatbot)
+
 ---
 
 © 2023 BaliBookBot. All rights reserved. 
