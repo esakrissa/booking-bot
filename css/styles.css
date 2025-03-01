@@ -179,11 +179,11 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bali-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/bali-hero.jpg');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 10rem 0 5rem;
+    padding: 8rem 0 4rem;
     text-align: center;
 }
 
@@ -193,14 +193,24 @@ nav {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 1.5rem;
     line-height: 1.2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image img {
+    max-height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(12, 255, 225, 0.3);
+    border: 2px solid rgba(12, 255, 225, 0.3);
+    margin-top: 2rem;
 }
 
 .cta-buttons {

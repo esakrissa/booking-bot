@@ -99,4 +99,4 @@ For any questions or inquiries, please contact:
 
 ---
 
-© 2023 BaliBookBot. All rights reserved. 
+© 2025 BaliBookBot. All rights reserved. 
